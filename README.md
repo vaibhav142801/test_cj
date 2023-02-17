@@ -66,11 +66,20 @@ $ npm run start // this will run the files in docs, this behavior is exactly the
 
 run the script at the first level:
 
-(You need to add a JWT_SECRET in .env to connect to MongoDB)
+(You need to add a  .env to connect to SQL)
+
 
 ```terminal
-// in the root level
-$ echo "JWT_SECRET=YOUR_JWT_SECRET" >> fnm_backend/.env
+// in the backend create .env with these credientials
+PORT=4543
+DB_DATABASE = cronj_test
+DB_URL=localhost
+DB_USER=
+DB_PASSWORD=
+
+DB_URL_PROD=http://localhost:1521/XE
+DB_USER_PROD=test
+DB_PASSWORD_PROD=test
 ```
 
 ### Start
