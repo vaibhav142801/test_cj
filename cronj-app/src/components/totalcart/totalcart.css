@@ -1,0 +1,12 @@
+.cardtitle , .cardContant {
+    text-align: center;
+}
+
+.cardtitle {
+    font-size: 1.5rem;
+
+}
+.cardContant{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
